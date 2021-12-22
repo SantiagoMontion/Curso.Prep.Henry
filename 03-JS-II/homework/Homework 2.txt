@@ -1,0 +1,7 @@
+For: Es utilizado para crear un bucle o repeticion de codigo, este mismo tiene un final ya establecido de antemano, y su objetivo es facilitar la repeticion de codigo, escribiendolo una sola vez.
+
+&&: Esta es la condicion "Y" o "AND" significa que para "pasar" dicha condicion es necesario que se cumplan ambas partes, es decir que ambas partes sean verdaderas (True). Si alguna no lo es, el resultado de la condicion es False.
+
+||: Esta es la condicion "O" o "Or" significa que para "pasar" dicha condicion es necesario que solo una de las partes sea verdadera (True). Si ambas son False, es el unico caso donde toda la condicion es False.
+
+!: Esta es la condicion "No" o "Not" significa lo contrario al resultado, es decir, si el resultado es True, !True es False. Tambien se utiliza para checkear que un elemento sea distinto a otro, por ejemplo, (numero !== 0).
