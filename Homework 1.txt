@@ -1,9 +1,0 @@
-Variable: Una variable es como una caja donde podemos guardar datos (numeros, nombres, etc) que mas tarde vamos a utilizar para resolver los problemas que se presenten. Este tipo de dato, como su nombre lo indica, puede variar a lo largo del algoritmo.
-
-String: Un string es una cadena de caracteres, es decir un conjunto de letras (Caracteres) unidas que forman una palabra o string.
-
-Funciones: Una funcion es una porcion de codigo que se utiliza para dividir en partes un problema, ya que a cada consigna la podemos resolver en distintas funciones y ademas nos ayuda a no repetir codigo en caso de requerir volver a realizar la misma accion varias veces.
-
-Declaraciones: Una declaracion o statement sirve para darle logica a nuestro codigo. Ya que con unas simples condiciones podemos cambiar el rumbo de nuestro codigo, salteando algunas partes y ejecutando las adecuadas.
-
-Valores Booleanos: Estos son True y False y sirven bastante a la hora de establecer condiciones, ya que esto nos avisa si nuestro dato paso la condicion (True) o no (False). 
