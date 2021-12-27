@@ -1,0 +1,1 @@
+Arrays: Un arreglo permite almacenar un conjunto de datos en un solo lugar, separados en celdas que pueden ser accedidas utilizando un indice. De esta manera se puede acceder a cada componente o elemento del arreglo para trabajar con el.
