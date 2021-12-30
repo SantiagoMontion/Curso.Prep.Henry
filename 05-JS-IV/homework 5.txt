@@ -1,0 +1,12 @@
+Objetos: Un Objeto es un contenedor de informacion sobre algo. Un objeto es utilizado para guardar diferentes datos sobre una cosa. Su objetivo principal es representar un objeto de la vida real (Ej: auto, gato, alumno, etc).
+
+Propiedades: Una propiedad es un dato sobre el objeto. Una propiedad contiene un identificador para acceder a la misma y un valor, dicho valor es el dato que se desea guardar del objeto. Ejemplo: Suponiendo como objeto a 'gato' podemos decir que una propiedad es edad y un valor podria ser '2 años'.
+
+Métodos: Un metodo es una funcion que se encuentra dentro de un objeto, estos pueden ser accedidos desde el objeto utilizando parentesis al final.
+
+Bucle for…in: El bucle for in sirve de la misma manera que un bucle for solo que al utilizar 'in' es posible iterar sobre el objeto. Este bucle recorre cada propiedad del objeto y finaliza cuando todas hayan sido recorridas.
+
+Notación de puntos vs notación de corchetes: 
+La notacion de corchetes es un poco mas complicada a la hora de escribirla ya que contiene mas simbolos ( obj['propiedad']) y es muy similar a trabajar con un arreglo, su punto fuerte es que es facil utilizar variables para llamar a la propiedad ( obj [ variable]).
+
+Notacion de puntos: Este metodo de acceder a una propiedad es mas sencillo ya que es mas facil de escribirlo ( obj.propiedad), no se necesitan corchetes ni otros simbolos, solamente el punto (.) seguido del nombre de la propiedad. La desventaja de utilizar la notacion de puntos es que al utilizar variables el interprete puede confundirse con una variable anterior con el mismo nombre y al ingresarla va a buscar dicha variable en las propiedades del objeto, y eso por lo general va a dar un error al no ser encontrada.
