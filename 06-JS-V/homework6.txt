@@ -1,0 +1,4 @@
+prototype: El metodo Prototype es contenido por todas las clases y sirve para optimizar el programa en cuanto a memoria que utiliza y al codigo. Este metodo es compartido por todos los objetos de una misma clase favoreciendo asi que no se vuelvan a cargar en memoria cada vez que se crea un objeto de dicha clase.
+
+
+Constructors (de Clases):  Un Constructor es una clase que sirve para poder agrupar varios objetos que poseen la misma caracteristicas o metodos, favoreciendo asi a la reutilizacion de codigo, por ejemplo creando el constructor Gato, podemos crear muchas instancias (Objetos) del mismo sin reescribir codigo.
