@@ -1,0 +1,37 @@
+
+
+h1{
+  color: orange;
+
+}
+
+img{
+  width: 400px;
+}
+
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  background: orange;
+  padding: 50px;
+  border: 20px black dashed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#spanId{
+  font-size: 18px;
+  margin: 50px;
+  text-align: center;
+}
+
+body{
+  color: white;
+  display: flex;
+  flex-direction:column;
+  background-image: url(https://lh3.googleusercontent.com/proxy/2fr_r3HjKIZAJAHTyf8dzOyQ8seZFVH6ZJ3w33pac1fVUowNGvYiwweiyqSxL0VxATCyl7pwjsPWDEwIb4FUTHFnJZ1uXYCllDsQpeld134Kajx8FgdhQD3oeSgztId6y2PVJYcm5UvLyDtszvYk3ByGjnIs2Wpd17w0cQ440Rw08oFR635T=w1200-h630-p-k-no-nu);
+}
+
+.divClass{
+  text-align:center;
+}

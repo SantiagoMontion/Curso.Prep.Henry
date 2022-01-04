@@ -1,0 +1,53 @@
+body{
+  color:#2e2e2e;
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  display: table-row;
+  align-content: center;
+  justify-content: center;
+  text-align:center;
+  background-color: #69b9f9;
+  position: relative;
+
+
+
+}
+.Desc{
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-bottom: 50px;
+}
+img.avatar{
+  border: solid black 2px;
+  width: 150px;
+  height: 150px;
+}
+
+h1{
+  color: black;
+}
+
+.listas{
+  display: inline-flex;
+  text-align: left ;
+  border: black dashed 5px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: #4b91c9;
+}
+
+.lista{
+  margin-bottom: 50px;
+
+}
+
+.Hobbies{
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-bottom: 200px;
+}
+
+
+
