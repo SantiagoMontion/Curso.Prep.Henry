@@ -1,0 +1,1 @@
+Funciones Callback:  Una funcion callback es utilizada para poder enviar como argumento de una funcion a otra funcion. Para hacerlo se utiliza la convencion 'cb'.
