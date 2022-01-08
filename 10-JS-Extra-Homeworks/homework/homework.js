@@ -94,7 +94,23 @@ function capicua(numero){
   //Escribe una función, la cual recibe un número y determina si es o no capicúa.
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
-  //Escribe tu código aquí
+  //Escribe tu código aquí 141414  4   14141
+  var falta,numeroInvertido,resto;
+  falta=numero;
+  numeroInvertido=0;
+  resto=0;
+  while(falta !== 0){
+    resto=falta%10;
+    falta=falta/10;
+    falta=Math.trunc(falta);
+    numeroInvertido=numeroInvertido*10+resto;
+  }
+
+  if (numeroInvertido === numero){
+    return ("Es capicua")
+  }
+  else return "No es capicua"
+
 }
 
 
@@ -102,6 +118,29 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  var array=[]
+  var nueva=''
+  for (i=0;i<cadena.length;i++){
+    array.push(cadena[i])
+  }
+  for (i=0;i<array.length;i++){
+  
+    if (array[i] === 'a'){
+      array.splice(i,1);
+    }
+    if (array[i] === 'b'){
+      array.splice(i,1);
+      }
+    if (array[i] === 'c'){
+        array.splice(i,1);
+      }
+
+    nueva+=array[i]
+  }
+  if (nueva === 'undefined'){
+    return '';
+  }
+  else return nueva;
 }
 
 
@@ -109,6 +148,14 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
+  
+  arr.sort(function(a, b){
+    return a.length - b.length;
+  });
+    
+  return arr;
+  
+  
 }
 
 
@@ -117,7 +164,15 @@ function buscoInterseccion(arreglo1, arreglo2){
   //retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
-  //Escribe tu código aquí  
+  //Escribe tu código aquí 
+
+  var result = arreglo1.filter(function(elem){
+    if ((arreglo1.includes(elem)) && (arreglo2.includes(elem))){
+      return elem;
+    }
+  })
+  result.sort()
+  return result;
 }
 
 
